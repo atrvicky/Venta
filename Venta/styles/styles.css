@@ -152,7 +152,7 @@ main .navBar #navList li:hover, main .navBar #navList li #active{
 main .slider{
   display: block;
   width: 100%;
-  height: 92rem;
+  height: 80rem;
   margin-left: 2rem;
 }
 
@@ -221,4 +221,60 @@ main .slider .sliderControls{
 main .slider .sliderControls i{
   padding: 1rem;
 }
-/*You are now in safe zone.*/
+/*You are now entering safe zone.*/
+
+.sliderCountDownTimer{
+  width: 100%;
+  height: 18rem;
+  background-color: #e53935;
+}
+
+.sliderCountDownTimer .poster{
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.sliderCountDownTimer .poster .joinConference .joinConferenceMain{
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-top: 6.5rem;
+}
+
+.sliderCountDownTimer .poster .joinConference .joinConferenceDescription{
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+.sliderCountDownTimer .poster #dividerInsidePoster{
+  color: #fff;
+  font-size: 3.2rem;
+  width: 1px;
+  font-weight: 100;
+  height: 5rem;
+  background-color: #fff;
+  margin-top: 6.5rem;
+  margin-left: 9rem;
+}
+
+.sliderCountDownTimer .poster .days{
+  margin-left: 30rem;
+}
+
+.sliderCountDownTimer .poster .hours{
+  margin-left: 8rem;
+  text-align: right;
+}
+
+.sliderCountDownTimer .poster .minutes{
+  margin-left: 4rem;
+  text-align: right;
+}
+
+.sliderCountDownTimer .poster .seconds{
+  margin-left: 4rem;
+  text-align: right;
+}
