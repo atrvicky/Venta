@@ -206,7 +206,7 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
   text-transform: uppercase;
 }
 
-main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover{
+main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover, #unknownSectionContainer .unknownSectionMore:hover{
   background-color: #e53935;
   color: #000;
 }
@@ -429,7 +429,7 @@ main .slider .sliderControls i{
   background-color: inherit;
 }
 
-#unknownSectionWrapper{
+#unknownSectionWrapper, #accomodationWrapper{
   width: 100%;
   height: 60rem;
 }
@@ -450,7 +450,7 @@ main .slider .sliderControls i{
   margin-bottom: 2rem;
 }
 
-#unknownSectionWrapper #unknownSectionContainer #areaName h2{
+#unknownSectionWrapper #unknownSectionContainer #areaName h2, #accomodationInfo #accomodationHeading{
   font-size: 2.4rem;
   font-weight: normal;
   margin-bottom: 1rem;
@@ -460,7 +460,7 @@ main .slider .sliderControls i{
   display: flex;
 }
 
-#addressBox #address, #addressBox #phone, #moreInfoBox #distance, #moreInfoBox #email{
+#addressBox #address, #addressBox #phone, #moreInfoBox #distance, #moreInfoBox #email, #accomodationInfo #accomodationDescription{
   color: #9f9f9f;
   font-size: 1.6rem;
   margin: 1rem 2rem 1rem 0;
@@ -474,4 +474,69 @@ main .slider .sliderControls i{
 
 #unknownSectionContainer .unknownSectionMore{
   margin: 3rem 0 0 0;
+}
+
+#accomodationWrapper{
+  background-color: #fff;
+  height: 44rem;
+}
+
+#accomodationContainer{
+  max-width: 120rem;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+  padding-top: 10rem;
+  display: flex;
+}
+
+#accomodationInfo{
+  width: 28rem;
+}
+
+#accomodationInfo #accomodationHeading{
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#accomodationInfo #accomodationDescription{
+  color: #5e5e5e;
+  line-height: 2;
+  margin-top: 2rem;
+}
+
+.hotelInfo{
+  width: 27rem;
+  display: block;
+  margin: 0 6rem 0 0;
+}
+
+.hotelInfo:nth-child(4){
+  margin-right: 0rem;
+}
+
+.hotelInfo .hotelImage{
+  width: inherit;
+  height: 18rem;
+  background-color: #e8e8e8;
+}
+
+.hotelInfo .hotelName h3{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.hotelRating{
+  margin: 1rem 0 1rem 0;
+  font-size: 1.3rem;
+}
+
+.hotelRating i{
+  padding-right: 1rem;
+  color: #d7d7d7;
+}
+
+.hotelRating .rated{
+  color: #ffcc00;
 }
