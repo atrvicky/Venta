@@ -193,7 +193,7 @@ main .slider #sliderConferenceTitle p{
   padding: 1rem;
 }
 
-main .slider .sliderActionBtns .more{
+main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more{
   font-size: 1.6rem;
   font-weight: 500;
   background-color: #1c1c1c;
@@ -206,7 +206,7 @@ main .slider .sliderActionBtns .more{
   text-transform: uppercase;
 }
 
-main .slider .sliderActionBtns .more:hover{
+main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover{
   background-color: #e53935;
   color: #000;
 }
@@ -282,14 +282,14 @@ main .slider .sliderControls i{
 }
 
 /*About Event Styling section*/
-#aboutEventWrapper{
+#aboutEventWrapper, #presentationBookWrapper{
   background-color: #fff;
   width: 100%;
   height: 72.5rem;
   margin: 0 auto;
 }
 
-#aboutEventWrapper #aboutEventContainer, #programWrapper #programContainer, #programWrapper #programContainer #programAccordion{
+#aboutEventWrapper #aboutEventContainer, #programWrapper #programContainer, #programWrapper #programContainer #programAccordion, #presentationBookWrapper #presentationBookContainer{
   display: block;
   max-width: 120rem;
   margin: 0 auto;
@@ -302,18 +302,18 @@ main .slider .sliderControls i{
   width: 85rem;
 }
 
-#aboutEventWrapper #aboutEventContainer #aboutEventMainHeading, #programWrapper #programContainer #programHeading{
+#aboutEventWrapper #aboutEventContainer #aboutEventMainHeading, #programWrapper #programContainer #programHeading, #presentationBookWrapper #presentationBookContainer #presentationBookHeading h2{
   font-size: 3.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak{
+  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak, #presentationBookWrapper #presentationBookContainer #presentationBookDivider{
     width: 6rem;
     padding: 4.5rem 0 4rem 0;
 }
 
-  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingDes p, #programWrapper #programContainer #programDescription p{
+  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingDes p, #programWrapper #programContainer #programDescription p, #presentationBookWrapper #presentationBookContainer #presentationBookDescription p{
     font-size: 1.6rem;
     font-weight: normal;
     line-height: 2;
@@ -407,4 +407,24 @@ main .slider .sliderControls i{
   margin: 1rem 0 13rem 0;
   background-color: #f7f7f7;
   padding: 0;
+}
+
+#presentationBookWrapper{
+  height: 62.5rem;
+  display: block;
+}
+
+#presentationBookWrapper #presentationBookContainer{
+  text-align: center;
+  width: 81rem;
+}
+
+#presentationBookWrapper #presentationBookContainer #presentationBookDivider{
+  position: relative;
+  left: 37rem;
+}
+
+#presentationBookWrapper #presentationBookContainer #presentationBookDownload .more{
+  margin-top: 2rem;
+  background-color: inherit;
 }
