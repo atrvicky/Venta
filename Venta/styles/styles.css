@@ -733,19 +733,28 @@ display: block;
   padding-top: 4rem;
 }
 
-#showcase .galleryBrick, #showcase .galleryBrickUp{
+#showcase .galleryBrickImage{
   width: 30rem;
   height: 30rem;
 }
 
-#showcase .galleryBrick:nth-child(1), #showcase .galleryBrick:nth-child(3), #showcase .galleryBrick:nth-child(6), #showcase .galleryBrick:nth-child(8){
+#showcase .galleryBrickImage:nth-child(1), #showcase .galleryBrickImage:nth-child(3), #showcase .galleryBrickImage:nth-child(6), #showcase .galleryBrickImage:nth-child(8){
   background-color: #e4e4e4;
 }
 
-#showcase .galleryBrick:nth-child(2), #showcase .galleryBrick:nth-child(4), #showcase .galleryBrick:nth-child(5), #showcase .galleryBrick:nth-child(7){
+#showcase .galleryBrickImage:nth-child(2), #showcase .galleryBrickImage:nth-child(4), #showcase .galleryBrickImage:nth-child(5), #showcase .galleryBrickImage:nth-child(7){
   background-color: #c4c4c4;
 }
 
-#showcase .galleryBrick:hover{
+#showcase .galleryBrickImage:hover{
   background-color: #e44945;
+  position: relative;
+}
+
+.galleryBrickImage:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  left: 10px;
+  content: "\f22c";
 }
