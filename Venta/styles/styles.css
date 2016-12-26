@@ -297,23 +297,23 @@ main .slider .sliderControls i{
   padding-top: 12.5rem;
 }
 
-#aboutEventWrapper #aboutEventContainer #aboutEventMain, #programWrapper #programContainer #programHeadingBox{
+#aboutEventWrapper #aboutEventContainer #aboutEventMain, #programWrapper #programContainer #programHeadingBox, #pricesBox{
   display: block;
   width: 85rem;
 }
 
-#aboutEventWrapper #aboutEventContainer #aboutEventMainHeading, #programWrapper #programContainer #programHeading, #presentationBookWrapper #presentationBookContainer #presentationBookHeading h2{
+#aboutEventWrapper #aboutEventContainer #aboutEventMainHeading, #programWrapper #programContainer #programHeading, #presentationBookWrapper #presentationBookContainer #presentationBookHeading h2, #pricesMainHeadingContainer #pricesMainHeading{
   font-size: 3.2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak, #presentationBookWrapper #presentationBookContainer #presentationBookDivider{
+  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak, #presentationBookWrapper #presentationBookContainer #presentationBookDivider, #pricesBox #pricesMainHeadingLineBreak{
     width: 6rem;
     padding: 4.5rem 0 4rem 0;
 }
 
-  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingDes p, #programWrapper #programContainer #programDescription p, #presentationBookWrapper #presentationBookContainer #presentationBookDescription p{
+  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingDes p, #programWrapper #programContainer #programDescription p, #presentationBookWrapper #presentationBookContainer #presentationBookDescription p, #pricesBox #pricesMainHeadingDes p{
     font-size: 1.6rem;
     font-weight: normal;
     line-height: 2;
@@ -574,4 +574,89 @@ main .slider .sliderControls i{
 .statsTextBox .statsText{
   font-size: 5rem;
   font-weight: 100;
+}
+
+#pricesWrapper{
+  width: 100%;
+  height: 80rem;
+  background-color: #fff;
+  padding-top: 10rem;
+}
+
+#pricesWrapper #pricesContainer{
+  max-width: 120rem;
+  height: 60rem;
+  margin: 0 auto;
+}
+
+#pricesContainer #packages{
+  display: flex;
+  max-width: 120rem;
+}
+
+.pricePackage{
+  display: block;
+  width: 27rem;
+  margin-top: 3.9rem;
+  margin-right: 3rem;
+}
+
+.pricePackage:nth-child(1){
+  padding-left: 0;
+}
+
+.pricePackage .packageTitle{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.pricePackage .packageValue{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.basicLine, .standardLine, .premiumLine, .vipLine{
+  height: 9px;
+  color: #43a047;
+  background-color: #43a047;
+  margin: 2rem 0 2rem 0;
+}
+
+.pricePackage .packageFeatures{
+  list-style-type: none;
+  line-height: 2;
+}
+
+.packageFeatures li{
+  font-size: 1.4rem;
+  color: #959595;
+}
+
+.packageFeatures i{
+  font-size: 1rem;
+  color: #c8c8c8;
+  padding-right: 1rem;
+}
+
+.basicJoin, .standardJoin, .premiumJoin, .vipJoin{
+  background-color: #43a047;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.standardLine, .standardJoin{
+  background-color: #3949ab;
+}
+
+.premiumLine, .premiumJoin{
+  background-color: #9c27b0;
+}
+
+.vipLine, .vipJoin{
+  background-color: #e53935;
 }
