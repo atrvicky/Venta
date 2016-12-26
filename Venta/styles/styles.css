@@ -338,7 +338,7 @@ main .slider .sliderControls i{
 #aboutEventContentsWrapper #aboutEventContents .aboutEventFeature{
   display: block;
   width: 27.5rem;
-  margin: 3rem;
+  margin: 1rem 3rem 0 3rem;
 }
 
 #aboutEventContentsWrapper #aboutEventContents .aboutEventFeature .aboutEventFeatureHeading{
@@ -359,7 +359,7 @@ main .slider .sliderControls i{
   font-weight: normal;
   color: #808080;
   padding: 1rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /*Program details section*/
@@ -539,4 +539,39 @@ main .slider .sliderControls i{
 
 .hotelRating .rated{
   color: #ffcc00;
+}
+
+#statsWrapper{
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 32.5rem;
+}
+
+#statsWrapper #statsContainer{
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+#statsContainer .statsBox{
+  display: flex;
+  width: 21rem;
+  height: auto;
+  margin: 12.5rem 10rem 0 0;
+}
+
+.statsBox .statsImage{
+  width: 10.5rem;
+  height: 10.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.statsBox .statsTextBox{
+  padding: 3rem;
+}
+
+.statsTextBox .statsText{
+  font-size: 5rem;
+  font-weight: 100;
 }
