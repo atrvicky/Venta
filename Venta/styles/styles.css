@@ -298,6 +298,7 @@ main .slider .sliderControls i:hover{
   width: 100%;
   height: 72.5rem;
   margin: 0 auto;
+  cursor: default;
 }
 
 #aboutEventWrapper #aboutEventContainer, #programWrapper #programContainer, #programWrapper #programContainer #programAccordion, #presentationBookWrapper #presentationBookContainer{
@@ -306,6 +307,7 @@ main .slider .sliderControls i:hover{
   margin: 0 auto;
   background-color: #fff;
   padding-top: 12.5rem;
+  cursor: default;
 }
 
 #aboutEventWrapper #aboutEventContainer #aboutEventMain, #programWrapper #programContainer #programHeadingBox, #pricesBox{
@@ -319,7 +321,7 @@ main .slider .sliderControls i:hover{
   text-transform: uppercase;
 }
 
-  #aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak, #presentationBookWrapper #presentationBookContainer #presentationBookDivider, #pricesBox #pricesMainHeadingLineBreak, #testimonialContainer #testimonialLineBreak{
+#aboutEventWrapper #aboutEventContainer #aboutEventMainHeadingLineBreak, #presentationBookWrapper #presentationBookContainer #presentationBookDivider, #pricesBox #pricesMainHeadingLineBreak, #testimonialContainer #testimonialLineBreak{
     width: 6rem;
     padding: 4.5rem 0 4rem 0;
 }
@@ -443,6 +445,7 @@ main .slider .sliderControls i:hover{
 #unknownSectionWrapper, #accomodationWrapper{
   width: 100%;
   height: 60rem;
+  cursor: default;
 }
 
 #unknownSectionWrapper #unknownSectionContainer{
@@ -556,6 +559,7 @@ main .slider .sliderControls i:hover{
   width: 100%;
   background-color: #f2f2f2;
   height: 32.5rem;
+  cursor: default;
 }
 
 #statsWrapper #statsContainer{
@@ -592,6 +596,7 @@ main .slider .sliderControls i:hover{
   height: 80rem;
   background-color: #fff;
   padding-top: 10rem;
+  cursor: default;
 }
 
 #pricesWrapper #pricesContainer{
@@ -675,6 +680,7 @@ main .slider .sliderControls i:hover{
 #subscribeWrapper{
   width: 100%;
   height: 25.9rem;
+  cursor: default;
 }
 
 #subscribeWrapper #subscribeContainer{
@@ -727,6 +733,7 @@ main .slider .sliderControls i:hover{
   width: 100%;
   height: 86.6rem;
   background-color: #f5f5f5;
+  cursor: default;
 }
 
 #galleryWrapper #galleryContainer, #testimonialWrapper #testimonialContainer{
@@ -765,6 +772,7 @@ display: block;
 #testimonialWrapper{
   width: 100%;
   height: 60rem;
+  cursor: default;
 }
 
 #testimonialContainer h2, #testimonialContainer #testimonialLineBreak,  #response p{
@@ -827,6 +835,7 @@ display: block;
   width: 100%;
   height: 50rem;
   margin: 0 auto;
+  cursor: default;
 }
 
 .sponsorWrapper .sponsorContainer{
@@ -876,10 +885,12 @@ display: block;
 .ctaMain .joinConferenceMain{
   font-size: 2.3rem !important;
   font-weight: normal;
+  cursor: default;
 }
 
 .ctaMain .joinConferenceDescription{
   font-size: 1.2rem !important;
+  cursor: default;
 }
 
 .registerCTA .more{
@@ -891,6 +902,7 @@ display: block;
   border-radius: 2.5rem;
   color: #fff;
   margin: 6rem 0 0 53rem;
+  cursor: pointer;
 }
 
 .registerCTA .more:hover{
@@ -902,24 +914,25 @@ display: block;
   width: 100%;
   height: 30rem;
   display: flex;
+  cursor: default;
 }
 
 .mapWrapper #map {
    width: 100%;
-   height: 400px;
+   height: 30rem;
    background-color: grey;
  }
 
 .postcard{
   width: 60rem;
-  height: 40rem;
+  height: 30rem;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   top: 773.5rem;
   left: 72rem;
   z-index: 10;
   padding-left: 7rem;
-  padding-top: 19rem;
+  padding-top: 11rem;
 }
 
 .postcard h2{
@@ -937,4 +950,43 @@ display: block;
   font-size: 1.6rem;
   color: #000;
   letter-spacing: 1.0px;
+}
+
+footer{
+  width: 100%;
+  background-color: #1c1c1c;
+  height: 20rem;
+}
+
+footer .footerContainer{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: flex;
+}
+
+footer .footerContainer p{
+  color: #767676;
+  font-size: 1.6rem;
+  width: 60rem;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+footer #navList{
+  list-style-type: none;
+  display: flex;
+  color: #767676;
+}
+
+footer #navList li{
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+footer #navList li:hover{
+  color: #fff;
 }
