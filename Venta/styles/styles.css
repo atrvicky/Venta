@@ -203,7 +203,7 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
   background-color: #1c1c1c;
   border: 2px solid #e53935;
   padding: 1rem;
-  color: #e53935;
+  color: #ffffff;
   border-radius: 2.5rem;
   margin-right: 2rem;
   margin-left: 1rem;
@@ -212,7 +212,7 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
 
 main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover, #unknownSectionContainer .unknownSectionMore:hover{
   background-color: #e53935;
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
 }
 
