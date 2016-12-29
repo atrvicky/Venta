@@ -897,3 +897,44 @@ display: block;
   background-color: #fff;
   color: #e53935;
 }
+
+.mapWrapper{
+  width: 100%;
+  height: 30rem;
+  display: flex;
+}
+
+.mapWrapper #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+.postcard{
+  width: 60rem;
+  height: 40rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 773.5rem;
+  left: 72rem;
+  z-index: 10;
+  padding-left: 7rem;
+  padding-top: 19rem;
+}
+
+.postcard h2{
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.postcard #mapLineBreak{
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+
+.postcard p{
+  font-size: 1.6rem;
+  color: #000;
+  letter-spacing: 1.0px;
+}

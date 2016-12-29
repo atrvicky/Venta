@@ -9,6 +9,7 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/venta.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
     <script src="https://use.fontawesome.com/efe5f1d889.js"></script>
   </head>
 
@@ -470,6 +471,35 @@
           <button type="button" name="register" class="more">Register Now</button>
         </div>
       </div>
+    </div>
+
+    <!--Get to us-->
+    <div class="mapWrapper">
+      <div id="map"></div>
+      <div class="postcard">
+        <h2>Mountain View, New York</h2>
+        <div id="mapLineBreak">
+            <hr>
+        </div>
+        <p>49 West 32nd Street, New York, NY 10001</p>
+        <p>1 212 736-3800</p>
+      </div>
+      <script>
+        function initMap() {
+          var uluru = {lat: 40.7128, lng: -74.0059};
+          var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+          });
+          var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+          });
+        }
+        </script>
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC261py1VggjIsV513gdNgcq8LOdeaYhQM&callback=initMap">
+      </script>
     </div>
   </body>
 </html>
