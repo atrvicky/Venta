@@ -153,16 +153,31 @@ main .navBar #navList li a:hover, main .navBar #navList li #active{
 }
 
 /*This portion controls the slider properties and might be edited or even removed. Proceed with caution!*/
+main .sliderImage{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 70rem;
+}
+
+main .sliderImage #item{
+  max-width: 130rem;
+  margin: 0 auto;
+}
 main .slider{
   display: block;
   width: 100%;
   height: 70rem;
   margin-left: 2rem;
   cursor: default;
+  position: absolute;
+  top: 16rem;
+  left: 15rem;
+  z-index: 10;
 }
 
 main .slider #sliderBg{
-  background: #1c1c1c;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   height: inherit;
   width: 100%;
@@ -197,7 +212,21 @@ main .slider #sliderConferenceTitle p{
   padding: 1rem;
 }
 
-main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more, #unknownSectionContainer .unknownSectionMore{
+main .slider .sliderActionBtns .more{
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 2px solid #e53935;
+  padding: 1rem;
+  color: #ffffff;
+  border-radius: 2.5rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#presentationBookWrapper #presentationBookContainer #presentationBookDownload .more, #unknownSectionContainer .unknownSectionMore{
   font-size: 1.6rem;
   font-weight: 500;
   background-color: #1c1c1c;
@@ -223,9 +252,9 @@ main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentati
 main .slider .sliderControls{
   color: #fff;
   font-size: 4.5rem;
-  position: relative;
+  position: absolute;
   top: 30rem;
-  left: 21rem;
+  right: 31rem;
   height: 6rem;
   cursor: pointer;
 }
