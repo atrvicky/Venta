@@ -845,6 +845,13 @@ display: block;
 .sponsorSlides span{
   font-size: 3rem;
   color: #e53935;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.sponsorSlides span:hover{
+  opacity: 0.9;
+  font-size: 4rem;
+  text-shadow: 9px 0px 3px black;
 }
 .sponsorContainer #sponsorShowcase{
   display: flex;
@@ -864,4 +871,29 @@ display: block;
 
 .sponsorBrick:nth-child(4){
   margin: 0;
+}
+
+.ctaMain .joinConferenceMain{
+  font-size: 2.3rem !important;
+  font-weight: normal;
+}
+
+.ctaMain .joinConferenceDescription{
+  font-size: 1.2rem !important;
+}
+
+.registerCTA .more{
+  text-transform: uppercase;
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 2rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 2.5rem;
+  color: #fff;
+  margin: 6rem 0 0 53rem;
+}
+
+.registerCTA .more:hover{
+  background-color: #fff;
+  color: #e53935;
 }
