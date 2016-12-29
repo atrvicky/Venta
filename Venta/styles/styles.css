@@ -9,3 +9,56 @@ html{
   background-color: #1c1c1c;
   font-family: 'Roboto', sans-serif;
 }
+
+header{
+  height: 100px;
+}
+
+header .row{
+  margin-top: 35px;
+  display: flex;
+}
+
+.venueDateContainer{
+  margin-top: 6px;
+  color: #aaaaaa;
+}
+
+.venueDateContainer{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.socialContainer{
+  display: flex;
+  margin-top: 6px;
+}
+
+.socialPlate{
+  width: 15px;
+  height: 15px;
+  background-color: #bababa;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 7px;
+}
+
+.socialPlate:nth-child(1){
+  padding-left: 1px;
+}
+
+.socialPlate:nth-child(2){
+  padding-left: 4px;
+}
+
+.socialPlate:nth-child(3){
+  padding-left: 4px;
+}
+.socialPlate a{
+  text-decoration: none;
+  color: #fff;
+}
+.socialPlate:hover{
+  background-color: #e53935;
+  color: #fff;
+}
