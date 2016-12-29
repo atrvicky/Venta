@@ -38,7 +38,7 @@ header #headerContainer{
 
 #venue{
   position: relative;
-  left: 66rem;
+  left: 64rem;
   top: 1.1rem;
   text-transform: uppercase;
   width: 25.4rem;
@@ -51,7 +51,7 @@ header #headerContainer{
 
 #divider{
   position: relative;
-  left: 68rem;
+  left: 65rem;
   top: 1rem;
 }
 
@@ -209,6 +209,10 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
   margin-left: 1rem;
   text-transform: uppercase;
 }
+
+ #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more{
+  color: #e53935;
+ }
 
 main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover, #unknownSectionContainer .unknownSectionMore:hover{
   background-color: #e53935;
