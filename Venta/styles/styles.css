@@ -129,7 +129,7 @@ main .navBar{
   background-color: #1c1c1c;
 }
 
-main .navBar #navList, #programWrapper #programTabHeader #programDates{
+main .navBar #navList, #navList a, #programWrapper #programTabHeader #programDates{
   margin: 0 auto;
   display: flex;
   color: #fff;
@@ -137,16 +137,16 @@ main .navBar #navList, #programWrapper #programTabHeader #programDates{
   padding-left: 3rem;
 }
 
-main .navBar #navList li{
+main .navBar #navList a{
   margin-top: 2rem;
+  text-decoration: none;
   text-transform: uppercase;
   margin-right: 1rem;
   padding: 1rem;
   font-size: 1.6rem;
-  cursor: pointer;
 }
 
-main .navBar #navList li:hover, main .navBar #navList li #active{
+main .navBar #navList li a:hover, main .navBar #navList li #active{
   background-color: #fff;
   color: #000;
   border-radius: 1.5rem;
@@ -208,6 +208,7 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
   margin-right: 2rem;
   margin-left: 1rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
  #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more{
@@ -217,7 +218,6 @@ main .slider .sliderActionBtns .more, #presentationBookWrapper #presentationBook
 main .slider .sliderActionBtns .more:hover, #presentationBookWrapper #presentationBookContainer #presentationBookDownload .more:hover, #unknownSectionContainer .unknownSectionMore:hover{
   background-color: #e53935;
   color: #ffffff;
-  cursor: pointer;
 }
 
 main .slider .sliderControls{
@@ -906,7 +906,6 @@ display: block;
   border-radius: 2.5rem;
   color: #fff;
   margin: 6rem 0 0 53rem;
-  cursor: pointer;
 }
 
 .registerCTA .more:hover{
@@ -981,9 +980,15 @@ footer #navList{
   list-style-type: none;
   display: flex;
   color: #767676;
+  text-decoration: none;
 }
 
-footer #navList li{
+footer #navList a{
+  color: #767676;
+  text-decoration: none;
+}
+
+footer #navList li a{
   font-size: 1.6rem;
   padding-left: 2rem;
   margin: 0 auto;
@@ -991,6 +996,6 @@ footer #navList li{
   cursor: pointer;
 }
 
-footer #navList li:hover{
+footer #navList li a:hover{
   color: #fff;
 }
