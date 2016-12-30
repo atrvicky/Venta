@@ -69,14 +69,14 @@ header .row, .countdownTimer .row{
   padding-top: 5px;
 }
 
-.nav-pills li a{
+.navigator .nav-pills li a{
   font-size: 15px;
   color: #fff;
   text-transform: uppercase;
   border-radius: 50px;
 }
 
-.nav-pills li a:hover, .navigationbar .open a{
+.navigator .nav-pills li a:hover, .navigationbar .open a{
   border-radius: 50px !important;
   color: #000;
   background-color: #fff;
@@ -181,17 +181,17 @@ header .row, .countdownTimer .row{
   height: 650px;
 }
 
-.aboutEvent .row{
+.aboutEvent .row, .program .row{
   display: block;
   margin-top: 35px;
   padding-left: 15px;
 }
 
-.aboutEvent .heading{
+.aboutEvent .heading, .program .heading{
   width: 70%;
 }
 
-.aboutEvent h2{
+.aboutEvent h2, .program h2{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -205,7 +205,7 @@ header .row, .countdownTimer .row{
   margin-bottom: 20px;
 }
 
-.aboutEvent p{
+.aboutEvent p, .program p{
   color: #4d4d4d;
   font-size: 16px;
   line-height: 2;
@@ -233,5 +233,98 @@ header .row, .countdownTimer .row{
 .features #dividerHor{
   width: 30px;
   margin: 30px 0 30px -10px;
+}
 
+.program{
+  background-color: #e8e8e8;
+  height: 650px;
+}
+
+.program .nav{
+  background-color: #fff;
+}
+
+.program .nav a{
+  font-size: 16px;
+  color: #e53935;
+  font-weight: bold;
+}
+
+.program .nav-pills .active a{
+  background-color: #e53935 !important;
+}
+
+.programDetails{
+  background-color: #f7f7f7;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.programDetails #headingOne a{
+  text-decoration: none;
+  color: #000;
+}
+
+.programDetails #headingOne a i{
+  color: #e53935;
+  margin: 0 20px 0 20px;
+}
+
+.programDetails .panel-body {
+  padding-left: 157px;
+}
+
+.programDetails .panel-body .speakerDetails, .programDetails .panel-body .speakerDetails .ctaBtns{
+  display: flex;
+}
+
+.programDetails .panel-body .speakerDetails{
+  margin-top: 20px;
+}
+
+.programDetails .panel-body .speakerDetails img{
+  width: 100px;
+  height: 100px;
+}
+
+.programDetails .panel-body .speakerDetails .speakerId{
+  margin-left: 20px;
+  width: 45%;
+}
+
+.programDetails .panel-body .speakerDetails .speakerId h3{
+  color: #4d4d4d;
+  font: 16px;
+  margin-bottom: 0;
+}
+
+.programDetails .panel-body .speakerDetails .speakerId p{
+  font-size: 14px;
+  color: #e53935;
+}
+
+.programDetails .panel-body .speakerDetails .ctaBtns p, .programDetails .panel-body .speakerDetails .ctaBtns button{
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  margin: 20px 20px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.programDetails .panel-body .speakerDetails .ctaBtns p{
+  cursor: default;
+}
+
+.programDetails .panel-body .speakerDetails .ctaBtns button{
+  background-color: #e53935;
+  text-transform: uppercase;
+}
+
+.programDetails .panel-body .speakerDetails .ctaBtns button:hover{
+  color: #e53935;
+  border: 1px solid #e53935;
+  background-color: #fff;
 }
