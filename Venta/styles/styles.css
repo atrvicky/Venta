@@ -194,7 +194,7 @@ header .row, .countdownTimer .row{
   width: 70%;
 }
 
-.aboutEvent h2, .program h2, .presentation h2{
+.aboutEvent h2, .program h2, .presentation h2, .accomodation h2{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ header .row, .countdownTimer .row{
   margin-bottom: 20px;
 }
 
-.aboutEvent p, .program p, .presentation p{
+.aboutEvent p, .program p, .presentation p, .accomodation p{
   color: #4d4d4d;
   font-size: 16px;
   line-height: 2;
@@ -421,4 +421,28 @@ header .row, .countdownTimer .row{
 
 .address .dwldBtn{
   background-color: #1c1c1c;
+}
+
+.accomodation{
+  background-color: #fff;
+  height: 400px;
+}
+
+.accomodation .container{
+  margin: 90px auto;
+}
+
+.accomodation img{
+  width: 95%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.accomodation .ratings i{
+  color: #ffd026;
+  margin: 5px;
+}
+
+.accomodation .ratings i:nth-child(5){
+  color: #cccccc;
 }
