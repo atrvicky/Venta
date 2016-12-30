@@ -180,11 +180,11 @@ header .row, .countdownTimer .row{
   margin: 25px auto;
 }
 
-.aboutEvent{
+.aboutEvent, .presentation{
   height: 650px;
 }
 
-.aboutEvent .row, .program .row{
+.aboutEvent .row, .program .row, .presentation .row{
   display: block;
   margin-top: 35px;
   padding-left: 15px;
@@ -194,7 +194,7 @@ header .row, .countdownTimer .row{
   width: 70%;
 }
 
-.aboutEvent h2, .program h2{
+.aboutEvent h2, .program h2, .presentation h2{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ header .row, .countdownTimer .row{
   margin-bottom: 20px;
 }
 
-.aboutEvent p, .program p{
+.aboutEvent p, .program p, .presentation p{
   color: #4d4d4d;
   font-size: 16px;
   line-height: 2;
@@ -241,6 +241,7 @@ header .row, .countdownTimer .row{
 .program{
   background-color: #e8e8e8;
   height: auto;
+  padding-bottom: 50px;
 }
 
 .program .nav{
@@ -338,4 +339,38 @@ header .row, .countdownTimer .row{
   border: 0 !important;
   background-color: rgba(255, 0, 0, 0) !important;
   box-shadow: none !important;
+}
+
+.presentation .row{
+  text-align: center;
+  width: 68%;
+  margin:0 auto;
+  padding-top: 35px;
+}
+
+
+.presentation p{
+  padding-bottom: 50px;
+}
+
+.presentation #dividerHor{
+  margin: 20px auto;
+  padding: 0;
+}
+
+.presentation .dwldBtn{
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #e53935;
+  border: 1px solid #e53935;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.presentation .dwldBtn:hover{
+  color: #fff;
+  background: #e53935;
 }
