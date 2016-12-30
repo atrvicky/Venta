@@ -103,4 +103,49 @@ header .row{
 
 .open a:hover{
   color: #000 !important;
+  background-color: #fff !important;
+  border-radius: 0;
+}
+
+.carouselSlider{
+  height: 750px;
+  background-color: #1c1c1c;
+}
+
+.carouselSlider .container{
+  height: inherit;
+}
+
+.carouselText{
+  text-align: left;
+  width: 100%;
+  left: 2%;
+  top: 35%;
+}
+
+.carouselText #carouselDate{
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.carouselText #carouselVenue{
+  color: #fff;
+  font-size: 20px;
+}
+
+.carouselText #carouselTitle{
+  color: #fff;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.carousel-control{
+  background-image: none !important;
+}
+
+.carousel-control.left{
+  left: 76%;
 }
