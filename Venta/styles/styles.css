@@ -201,7 +201,7 @@ header .row, .countdownTimer .row{
   padding-bottom: 20px;
 }
 
-#dividerHor{
+.dividerHor{
   width: 60px;
   height: 1px;
   background-color: #000;
@@ -233,7 +233,7 @@ header .row, .countdownTimer .row{
   line-height: 1.75;
 }
 
-.features #dividerHor{
+.features .dividerHor{
   width: 30px;
   margin: 30px 0 30px -10px;
 }
@@ -353,12 +353,12 @@ header .row, .countdownTimer .row{
   padding-bottom: 50px;
 }
 
-.presentation #dividerHor{
+.presentation .dividerHor{
   margin: 20px auto;
   padding: 0;
 }
 
-.presentation .dwldBtn{
+.presentation .dwldBtn, .address .dwldBtn{
   padding: 10px;
   font-size: 16px;
   background-color: #fff;
@@ -370,7 +370,55 @@ header .row, .countdownTimer .row{
   text-transform: uppercase;
 }
 
-.presentation .dwldBtn:hover{
+.presentation .dwldBtn:hover, .address .dwldBtn:hover{
   color: #fff;
   background: #e53935;
+}
+
+.address{
+  background-color: #1c1c1c;
+  height: 600px;
+}
+
+.address .container{
+  margin: 150px auto;
+  color: #bfbfbf;
+  font-size: 16px;
+}
+
+.address img{
+  width: 15%;
+  height: auto;
+}
+
+.address h2{
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.address .addressAndPhone{
+  display: flex;
+  color: #969696;
+}
+
+.address p{
+  font-size: 16px;
+}
+
+.address p:nth-child(6){
+  padding-bottom: 60px;
+}
+
+.address .addressAndPhone p{
+  padding-right: 15px;
+}
+
+.address .dividerHor{
+  background-color: #bfbfbf;
+  margin-top: 10px;
+}
+
+.address .dwldBtn{
+  background-color: #1c1c1c;
 }
