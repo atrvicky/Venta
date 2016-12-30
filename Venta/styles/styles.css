@@ -9,6 +9,9 @@ html{
   background-color: #1c1c1c;
   font-family: 'Roboto', sans-serif;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 header{
   height: 100px;
@@ -237,7 +240,7 @@ header .row, .countdownTimer .row{
 
 .program{
   background-color: #e8e8e8;
-  height: 650px;
+  height: auto;
 }
 
 .program .nav{
@@ -260,12 +263,12 @@ header .row, .countdownTimer .row{
   margin: 0;
 }
 
-.programDetails #headingOne a{
+.programDetails .headingOne a{
   text-decoration: none;
   color: #000;
 }
 
-.programDetails #headingOne a i{
+.programDetails .headingOne a i{
   color: #e53935;
   margin: 0 20px 0 20px;
 }
@@ -303,7 +306,7 @@ header .row, .countdownTimer .row{
   color: #e53935;
 }
 
-.programDetails .panel-body .speakerDetails .ctaBtns p, .programDetails .panel-body .speakerDetails .ctaBtns button{
+.programDetails .panel-body .speakerDetails .ctaBtns p, .programDetails .panel-body .speakerDetails .ctaBtns a{
   padding: 10px;
   background-color: #000;
   color: #fff;
@@ -318,13 +321,21 @@ header .row, .countdownTimer .row{
   cursor: default;
 }
 
-.programDetails .panel-body .speakerDetails .ctaBtns button{
+.programDetails .panel-body .speakerDetails .ctaBtns a{
   background-color: #e53935;
   text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 15px;
 }
 
-.programDetails .panel-body .speakerDetails .ctaBtns button:hover{
+.programDetails .panel-body .speakerDetails .ctaBtns a:hover{
   color: #e53935;
   border: 1px solid #e53935;
   background-color: #fff;
+}
+
+.programDetails .panel, .programDetails .panel-heading, .programDetails .panel-body, .programDetails .panel-default, .programDetails .panel-collapse, .programDetails .panel-group{
+  border: 0 !important;
+  background-color: rgba(255, 0, 0, 0) !important;
+  box-shadow: none !important;
 }
