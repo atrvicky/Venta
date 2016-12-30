@@ -154,6 +154,7 @@ header .row, .countdownTimer .row{
   background-color: #e53935;
   color: #fff;
   height: 180px;
+  cursor: default;
 }
 
 .countdownTimer h2{
@@ -174,4 +175,63 @@ header .row, .countdownTimer .row{
   height: 55px;
   background-color: #fff;
   margin: 25px auto;
+}
+
+.aboutEvent{
+  height: 650px;
+}
+
+.aboutEvent .row{
+  display: block;
+  margin-top: 35px;
+  padding-left: 15px;
+}
+
+.aboutEvent .heading{
+  width: 70%;
+}
+
+.aboutEvent h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+#dividerHor{
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.aboutEvent p{
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.features{
+  background-color: #fafafa;
+  padding: 30px 0 30px 40px;
+}
+
+.features img{
+  margin-left: -15px;
+}
+
+.features h3{
+  color: #e53935;
+  font-weight: bold;
+  margin: 0;
+}
+
+.features p{
+  line-height: 1.75;
+}
+
+.features #dividerHor{
+  width: 30px;
+  margin: 30px 0 30px -10px;
+
 }

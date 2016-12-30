@@ -13,9 +13,7 @@ var minutes = 46;
 var seconds = 27;
 
 function clock() {
-
-  console.log(seconds);
-
+//  console.log(seconds);
   seconds--;
   if (seconds == 0) {
     minutes--;
@@ -29,7 +27,6 @@ function clock() {
     days--;
     hours = 24;
   }
-
 document.getElementById('remDays').innerHTML = days;
 document.getElementById('remHours').innerHTML = hours;
 document.getElementById('remMinutes').innerHTML = minutes;
