@@ -14,7 +14,7 @@ header{
   height: 100px;
 }
 
-header .row{
+header .row, .countdownTimer .row{
   margin-top: 35px;
   display: flex;
 }
@@ -112,8 +112,8 @@ header .row{
   background-color: #1c1c1c;
 }
 
-.carouselSlider .container{
-  height: inherit;
+.carouselSlider .container, .carouselSlider .container img{
+  height: 750px;
 }
 
 .carouselText{
@@ -148,4 +148,30 @@ header .row{
 
 .carousel-control.left{
   left: 76%;
+}
+
+.countdownTimer{
+  background-color: #e53935;
+  color: #fff;
+  height: 180px;
+}
+
+.countdownTimer h2{
+  font-size: 32px;
+}
+
+.countdownTimer h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.countdownTimer p{
+  font-size: 16px;
+}
+
+#dividerVert{
+  width: 1px;
+  height: 55px;
+  background-color: #fff;
+  margin: 25px auto;
 }
