@@ -180,21 +180,21 @@ header .row, .countdownTimer .row{
   margin: 25px auto;
 }
 
-.aboutEvent, .presentation{
+.aboutEvent, .presentation, .prices{
   height: 650px;
 }
 
-.aboutEvent .row, .program .row, .presentation .row{
+.aboutEvent .row, .program .row, .presentation .row, .prices .row{
   display: block;
   margin-top: 35px;
   padding-left: 15px;
 }
 
-.aboutEvent .heading, .program .heading{
+.aboutEvent .heading, .program .heading, .prices .heading{
   width: 70%;
 }
 
-.aboutEvent h2, .program h2, .presentation h2, .accomodation h2{
+.aboutEvent h2, .program h2, .presentation h2, .accomodation h2, .prices h2{
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ header .row, .countdownTimer .row{
   margin-bottom: 20px;
 }
 
-.aboutEvent p, .program p, .presentation p, .accomodation p{
+.aboutEvent p, .program p, .presentation p, .accomodation p, .prices p{
   color: #4d4d4d;
   font-size: 16px;
   line-height: 2;
@@ -457,4 +457,49 @@ header .row, .countdownTimer .row{
   color: #919191;
   font-weight: 100;
   font-size: 50px;
+}
+
+.prices .row .col-md-3 h2{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.prices .row .col-md-3 h1{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.prices .row .col-md-3 .dividerHor{
+  width: 270px;
+  height: 10px;
+  margin: 20px 30px 20px 0;
+}
+
+.prices .row .col-md-3 i{
+  padding-right: 5px;
+}
+
+.prices .row ul{
+  list-style-type: none;
+  line-height: 2.5;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+
+.prices .row .col-md-3{
+  padding: 20px;
+}
+
+.prices .row .col-md-3 a{
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #fff;
 }

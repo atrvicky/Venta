@@ -120,3 +120,108 @@ $(window).scroll(function() {
   }
 
 });
+
+/*----------Prices section-----------*/
+var r = document.getElementById('red').childNodes;
+var g = document.getElementById('green').childNodes;
+var b = document.getElementById('blue').childNodes;
+var v = document.getElementById('violet').childNodes;
+var rd = document.getElementById('red');
+var gr = document.getElementById('green');
+var bl = document.getElementById('blue');
+var vl = document.getElementById('violet');
+
+r[9].style.backgroundColor="#e53935";
+r[5].style.backgroundColor="#e53935";
+g[9].style.backgroundColor="#43a047";
+g[5].style.backgroundColor="#43a047";
+b[9].style.backgroundColor="#3949ab";
+b[5].style.backgroundColor="#3949ab";
+v[9].style.backgroundColor="#9c27b0";
+v[5].style.backgroundColor="#9c27b0";
+
+rd.addEventListener("mouseover", highlightRed);
+gr.addEventListener("mouseover", highlightGreen);
+bl.addEventListener("mouseover", highlightBlue);
+vl.addEventListener("mouseover", highlightViolet);
+rd.addEventListener("mouseout", unHighlightRed);
+gr.addEventListener("mouseout", unHighlightGreen);
+bl.addEventListener("mouseout", unHighlightBlue);
+vl.addEventListener("mouseout", unHighlightViolet);
+
+function unHighlightRed(){
+  r[1].style.color="#000";
+  r[3].style.color="#000";
+  r[5].style.backgroundColor="#e53935";
+  r[7].style.color="#000";
+  r[9].style.color="#fff";
+  r[9].style.backgroundColor="#e53935";
+  rd.style.backgroundColor="#fff";
+}
+
+function unHighlightBlue(){
+  b[1].style.color="#000";
+  b[3].style.color="#000";
+  b[5].style.backgroundColor="#3949ab";
+  b[7].style.color="#000";
+  b[9].style.color="#000";
+  b[9].style.backgroundColor="#3949ab";
+  bl.style.backgroundColor="#fff";
+}
+
+function unHighlightViolet(){
+  v[1].style.color="#000";
+  v[3].style.color="#000";
+  v[5].style.backgroundColor="#9c27b0";
+  v[7].style.color="#000";
+  v[9].style.color="#000";
+  v[9].style.backgroundColor="#9c27b0";
+  vl.style.backgroundColor="#fff";
+}
+
+function unHighlightGreen(){
+  g[1].style.color="#000";
+  g[3].style.color="#000";
+  g[5].style.backgroundColor="#43a047";
+  g[7].style.color="#000";
+  g[9].style.color="#000";
+  g[9].style.backgroundColor="#43a047";
+  gr.style.backgroundColor="#fff";
+}
+
+/*-----------------------------*/
+function highlightRed(){
+  r[1].style.color="#fff";
+  r[3].style.color="#fff";
+  r[5].style.backgroundColor="#fff";
+  r[7].style.color="#fff";
+  r[9].style.color="#fff";
+  rd.style.backgroundColor="#e53935";
+}
+
+function highlightBlue(){
+  b[1].style.color="#fff";
+  b[3].style.color="#fff";
+  b[5].style.backgroundColor="#fff";
+  b[7].style.color="#fff";
+  b[9].style.color="#fff";
+  bl.style.backgroundColor="#3949ab";
+}
+
+function highlightViolet(){
+  v[1].style.color="#fff";
+  v[3].style.color="#fff";
+  v[5].style.backgroundColor="#fff";
+  v[7].style.color="#fff";
+  v[9].style.color="#fff";
+  vl.style.backgroundColor="#9c27b0";
+}
+
+function highlightGreen(){
+  g[1].style.color="#fff";
+  g[3].style.color="#fff";
+  g[5].style.backgroundColor="#fff";
+  g[7].style.color="#fff";
+  g[9].style.color="#fff";
+  gr.style.backgroundColor="#43a047";
+}
