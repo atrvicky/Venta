@@ -446,3 +446,15 @@ header .row, .countdownTimer .row{
 .accomodation .ratings i:nth-child(5){
   color: #cccccc;
 }
+
+.stats{
+  background-color: #f2f2f2;
+  height: 300px;
+  padding-top: 100px;
+}
+
+.stats h2{
+  color: #919191;
+  font-weight: 100;
+  font-size: 50px;
+}
