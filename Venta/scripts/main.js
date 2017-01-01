@@ -164,7 +164,7 @@ function unHighlightBlue(){
   b[3].style.color="#000";
   b[5].style.backgroundColor="#3949ab";
   b[7].style.color="#000";
-  b[9].style.color="#000";
+  b[9].style.color="#fff";
   b[9].style.backgroundColor="#3949ab";
   bl.style.backgroundColor="#fff";
 }
@@ -174,7 +174,7 @@ function unHighlightViolet(){
   v[3].style.color="#000";
   v[5].style.backgroundColor="#9c27b0";
   v[7].style.color="#000";
-  v[9].style.color="#000";
+  v[9].style.color="#fff";
   v[9].style.backgroundColor="#9c27b0";
   vl.style.backgroundColor="#fff";
 }
@@ -184,7 +184,7 @@ function unHighlightGreen(){
   g[3].style.color="#000";
   g[5].style.backgroundColor="#43a047";
   g[7].style.color="#000";
-  g[9].style.color="#000";
+  g[9].style.color="#fff";
   g[9].style.backgroundColor="#43a047";
   gr.style.backgroundColor="#fff";
 }
@@ -224,4 +224,47 @@ function highlightGreen(){
   g[7].style.color="#fff";
   g[9].style.color="#fff";
   gr.style.backgroundColor="#43a047";
+}
+
+/*----------Gallery section-----------*/
+//var gBrick = document.getElementsByClassName('galleryBrick');
+var gBrickOne = document.getElementById('brickOne');
+var gBrickTwo = document.getElementById('brickTwo');
+var gBrickThree = document.getElementById('brickThree');
+var gBrickFour = document.getElementById('brickFour');
+var gBrickFive = document.getElementById('brickFive');
+var gBrickSix = document.getElementById('brickSix');
+var gBrickSeven = document.getElementById('brickSeven');
+var gBrickEight = document.getElementById('brickEight');
+var gBlock, gBlockFa;
+
+gBrickOne.addEventListener("mouseover", hovered);
+gBrickOne.addEventListener("mouseout", unhovered);
+gBrickTwo.addEventListener("mouseover", hovered);
+gBrickTwo.addEventListener("mouseout", unhovered);
+gBrickThree.addEventListener("mouseover", hovered);
+gBrickThree.addEventListener("mouseout", unhovered);
+gBrickFour.addEventListener("mouseover", hovered);
+gBrickFour.addEventListener("mouseout", unhovered);
+gBrickFive.addEventListener("mouseover", hovered);
+gBrickFive.addEventListener("mouseout", unhovered);
+gBrickSix.addEventListener("mouseover", hovered);
+gBrickSix.addEventListener("mouseout", unhovered);
+gBrickSeven.addEventListener("mouseover", hovered);
+gBrickSeven.addEventListener("mouseout", unhovered);
+gBrickEight.addEventListener("mouseover", hovered);
+gBrickEight.addEventListener("mouseout", unhovered);
+
+function hovered(){
+  gBlock = this.getElementsByTagName('img');
+  gBlockFa = this.getElementsByTagName('i');
+  gBlock[0].style.display = "none";
+  gBlockFa[0].style.display = "block"
+  console.log(gBlock[0]);
+}
+
+function unhovered(){
+  gBlock[0].style.display = "block";
+  gBlockFa[0].style.display = "none";
+  console.log("unhovered");
 }
